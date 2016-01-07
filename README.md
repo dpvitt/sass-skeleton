@@ -8,7 +8,7 @@ The SCSS directory is split into *base* classes and *module* classes. The base c
 #### Base
 The base folder is split up into three sub-folders:
 - Helpers  – this contains variables, resets and utility classes
-- Layout	 — this contains grids and global, high-level elements like wrappers
+- Layout – this contains grids and global, high-level elements like wrappers
 - Elements – this contains global element classes for html elements like headings, lists and forms
 
 ##### Helpers Explained
