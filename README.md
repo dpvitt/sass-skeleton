@@ -12,14 +12,14 @@ The base folder is split up into three sub-folders:
 - Elements – this contains global element classes for html elements like headings, lists and forms
 
 ##### Helpers Explained
-Mixins: Located in *base/helpers/_mixins*, this contains useful SASS helpers
-Reset: Eric Meyer's CSS Reset
-Utilities: Contain global "helper" classes such as a clearfix
-Vars: Main point of control for font-sizes, grid-sizes, colours and breakpoints
+- Mixins: Located in *base/helpers/_mixins*, this contains useful SASS helpers
+- Reset: Eric Meyer's CSS Reset
+- Utilities: Contain global "helper" classes such as a clearfix
+- Vars: Main point of control for font-sizes, grid-sizes, colours and breakpoints
 
 ##### Layout Explained
-Grids: Contains a mixin to calculate a grid, variables for this are set in *base/helpers/vars*
-Layout: High-level elements that are generally used on every page to control layout
+- Grids: Contains a mixin to calculate a grid, variables for this are set in *base/helpers/vars*
+- Layout: High-level elements that are generally used on every page to control layout
 
 ##### Elements Explained
 Often we find that we have similar types of style for particular types of elements that aren't specifically attached to a particular module or UI component. In this instance we can set a "base element" style to create a globally used class, this is useful for things like headings or form field styles. In the elements folder we have sub-folders separated into element type or function.
