@@ -1,15 +1,15 @@
 # SASS Skeleton
 
-Simple SASS skeleton folder structure. Clone the repo, then run *npm install*. You will then be able to run gulp commands to compile and watch any changes to the project. Run *gulp serve* to launch the project and automatically watch changes to SCSS and HTML. If you want to independently compile SASS, run *gulp sass*.
+Simple SASS skeleton folder structure. Clone the repo, then run `npm install`. You will then be able to run gulp commands to compile and watch any changes to the project. Run `gulp serve` to launch the project and automatically watch changes to SCSS and HTML. If you want to independently compile SASS, run *gulp sass*.
 
 ### SCSS Directory
 The SCSS directory is split into *base* classes and *module* classes. The base classes contain a starting point for your project, and the module classes can be added to as you build your project.
 
 #### Base
 The base folder is split up into three sub-folders:
-	Helpers  – this contains variables, resets and utility classes
-	Layout	 — this contains grids and global, high-level elements like wrappers
-	Elements – this contains global element classes for html elements like headings, lists and forms
+- Helpers  – this contains variables, resets and utility classes
+- Layout	 — this contains grids and global, high-level elements like wrappers
+- Elements – this contains global element classes for html elements like headings, lists and forms
 
 ##### Helpers Explained
 Mixins: Located in *base/helpers/_mixins*, this contains useful SASS helpers
