@@ -1,0 +1,15 @@
+
+h1,
+.alpha-heading {
+	@include font-size($alpha-size);
+}
+
+h2,
+.beta-heading {
+	@include font-size($beta-size);
+}
+
+h3,
+.gamma-heading {
+	@include font-size($gamma-size);
+}

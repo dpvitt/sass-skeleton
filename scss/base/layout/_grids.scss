@@ -1,0 +1,37 @@
+
+// Total width of grid
+$gridWidth: $totalColumns * $columnWidth;
+
+// Each grid column
+@function col($n) {
+	@return percentage( ( $n * $columnWidth ) / $gridWidth );
+}
+
+// Each column
+@mixin column($n) {
+	width: col($n);
+}
+
+// Floating columns
+[class^="col-"] {
+	float: left;
+}
+
+// Generates styles
+@for $i from 1 to ($totalColumns + 1) {
+	.col-#{$i}{
+		@include column($i);
+	}
+}
+
+/*
+ *	This iterates through each column and produces output like this:
+ *
+ *	.col-1 {
+ *		width: 6.25%;
+ *	}
+ *
+ *	Simply add .col-n as a class to your element
+ *	<div class="col-12">
+ *
+ */

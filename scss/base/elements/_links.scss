@@ -1,0 +1,18 @@
+
+a {
+	color: $colour-1;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: 0 none;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
