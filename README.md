@@ -5,6 +5,9 @@ Simple SASS skeleton folder structure. Clone the repo, then run `npm install`. Y
 ### SCSS Directory
 The SCSS directory is split into *base* classes and *module* classes. The base classes contain a starting point for your project, and the module classes can be added to as you build your project.
 
+#### Pages
+The files inside the pages directory control what modules we want to import into our page. All pages should import the *base* and *utility* classes. For an example see *sccs/pages/page-one.scss*.
+
 #### Base
 The base folder is split up into three sub-folders:
 - Helpers  – this contains variables, resets and utility classes
