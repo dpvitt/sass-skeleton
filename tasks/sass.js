@@ -16,7 +16,7 @@ module.exports = function () {
 					notify().write(err);
 				}
 			}))
-			.pipe(gulp.dest('css'))
+			.pipe(gulp.dest('app/css'))
 			.pipe(connect.reload())
 			.pipe(filter('scss**/*.css'));
 	});
