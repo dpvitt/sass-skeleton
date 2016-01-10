@@ -2,7 +2,6 @@
 var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	filter = require('gulp-filter'),
-	rename = require('gulp-rename'),
 	connect = require('gulp-connect');
 
 module.exports = function () {
@@ -16,9 +15,6 @@ module.exports = function () {
 				onError: function (err) {
 					notify().write(err);
 				}
-			}))
-			.pipe(rename({
-				basename: "styles"
 			}))
 			.pipe(gulp.dest('css'))
 			.pipe(connect.reload())

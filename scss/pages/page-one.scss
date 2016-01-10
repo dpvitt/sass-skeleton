@@ -2,6 +2,10 @@
 
 /*  SASS Skeleton
  *  Daniel Pavitt
+ *  Page One
+ *
+ *	Base Classes
+ *	Base................ Imports all the base classes that are used across the application
  *
  *	Module Classes
  *  Example............. Example module
@@ -12,10 +16,10 @@
  */
 
 // Base Class Import
-@import "base/base";
+@import "../base/base";
 
 // Module Classes
-@import "modules/example";
+@import "../modules/example";
 
 // Utility Classes
-@import "base/helpers/utilities";
+@import "../base/helpers/utilities";
